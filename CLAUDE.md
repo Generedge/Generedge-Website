@@ -338,7 +338,7 @@ Workspace.
 repository's default branch. Pushes to other branches run the build and the
 checks as CI but publish nothing.
 
-Live at <https://ejcorral3s.github.io/Generedge-Website/>.
+Live at <https://generedge.github.io/Generedge-Website/>.
 
 Pages serves from the **`gh-pages`** branch, which holds generated output only.
 **Never edit `gh-pages` by hand** — the next deploy overwrites it wholesale.
