@@ -3,7 +3,7 @@
 Static website for GenerEdge, Inc. — replaces the previous WordPress + Elementor
 site. Plain HTML/CSS/JS, no runtime dependencies.
 
-**Live: <https://generedge.github.io/Generedge-Website/>**
+**Live: <https://generedgep.github.io/Generedge-Website/>**
 
 Published automatically to GitHub Pages on every push to the default branch,
 and deployable to Hostinger as a plain file copy. The Pages build is marked
@@ -125,7 +125,7 @@ Every form also carries a honeypot field, inline `aria-invalid` errors, an
 
 ### GitHub Pages (automatic)
 
-**Live at <https://generedge.github.io/Generedge-Website/>.**
+**Live at <https://generedgep.github.io/Generedge-Website/>.**
 
 `.github/workflows/deploy-pages.yml` builds and publishes on every push to the
 default branch. Other branches get the build and the checks as CI but publish
@@ -178,7 +178,7 @@ first) to `public_html/`.
 
 ```bash
 # what GitHub Pages publishes
-GE_ORIGIN=https://generedge.github.io GE_BASE=/Generedge-Website python3 scripts/build.py
+GE_ORIGIN=https://generedgep.github.io GE_BASE=/Generedge-Website python3 scripts/build.py
 ```
 
 ---

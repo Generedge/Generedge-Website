@@ -285,6 +285,39 @@ Finturf/SafeTurf "fintech backbone" section, which takes the SOC 2 question
 above off the table — it is no longer claimed anywhere on the site. Stephen's
 bio still names Finturf and SafeTurf, which is his own history and fine.
 
+#### Client copy applied 2026-09-15
+
+Tracey sent a second, restructured About page (9/10, 6:40pm) that supersedes
+the 9/9 one, plus fee-table and layout changes. Steve's seven home-page edits
+came through again unchanged and were already applied on 9/10.
+
+- **The fee table now prices "Over $15 million" again.** The bullet above
+  records that tier being removed because it contradicted the stat band's
+  "Up to $15M". Pricing a band is the stronger signal that GenerEdge places
+  it, so this time the **stat band moved to "$15M+"** and the tier stayed —
+  which is what that bullet said to do if loans above $15M are real. Confirm
+  with Tracey that GenerEdge does place them. The visually-hidden table, the
+  visible chart and the builder application's amount dropdown carry the same
+  five bands; keep all three in step.
+- **Business Financing still advertises a separate $50K-$1M program** with its
+  own dropdown. The home fee table now starts at "$50,000 to $2 million", so
+  the two overlap. Left as-is because §4 records them as deliberately separate
+  programs, but worth confirming.
+- **"we don't just fund businesses"** came through unchanged in the new About
+  text. Published again as **"we don't just help businesses get funded"**, for
+  the same reason as before — it implies GenerEdge lends, contradicting the
+  footer disclaimer on the same page.
+
+**The GitHub owner was renamed twice**: `ejcorral3s` -> `Generedge` ->
+`GeneredgeP`. The live Pages URL is now
+<https://generedgep.github.io/Generedge-Website/>; both earlier URLs 404,
+because GitHub redirects git operations after a rename but **not Pages**. No
+code change was needed — the workflow derives the origin from
+`GITHUB_REPOSITORY`, so canonicals, og:url and the sitemap corrected
+themselves on the next deploy. Only hand-written URLs in these notes needed
+updating. If the account is renamed again, expect exactly that: the site keeps
+working, the docs go stale.
+
 ### 5. Legal pages
 
 `privacy-policy`, `terms-and-conditions` carry the real text migrated from
@@ -338,7 +371,7 @@ Workspace.
 repository's default branch. Pushes to other branches run the build and the
 checks as CI but publish nothing.
 
-Live at <https://generedge.github.io/Generedge-Website/>.
+Live at <https://generedgep.github.io/Generedge-Website/>.
 
 Pages serves from the **`gh-pages`** branch, which holds generated output only.
 **Never edit `gh-pages` by hand** — the next deploy overwrites it wholesale.
